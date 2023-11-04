@@ -1,0 +1,100 @@
+/* Resetting some default styles */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f4f4f4; /* Background color for the entire page */
+    font-family: Arial, sans-serif; /* Default font */
+}
+
+header {
+    background-color: #333; /* Header background color */
+    color: #fff; /* Header text color */
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Header box shadow */
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+footer {
+    background-color: #333; /* Footer background color */
+    color: #fff; /* Footer text color */
+    text-align: center;
+    padding: 15px;
+}
+
+/* Styles for Accordions */
+.accordion {
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+.accordion-header {
+    background-color: #f0f0f0;
+    padding: 15px;
+    cursor: pointer;
+    text-align: left;
+    width: 100%;
+    border: 1px solid #ddd;
+    color: #333;
+}
+
+.accordion-header:hover {
+    background-color: #e0e0e0; /* Hover effect for headers */
+}
+
+.accordion-content {
+    padding: 15px;
+    display: none;
+    background: #fff;
+    border: 1px solid #ddd;
+}
+
+/* Styles for Tabbed Section */
+.tabbed-section {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.tab-control {
+    background: #f0f0f0;
+    color: #333;
+    cursor: pointer;
+    padding: 15px;
+    text-align: center;
+    flex: 1;
+    border: 1px solid #ddd;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.tab-control.active {
+    background: #333;
+    color: #fff;
+}
+
+.tab-content {
+    display: none;
+    padding: 15px;
+    background: #fff;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+}
+
+.tab-content.active {
+    display: block;
+}
